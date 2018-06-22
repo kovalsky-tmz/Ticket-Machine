@@ -13,5 +13,5 @@ class Automat
     float cena;
 public:
     Automat(float=0 ,float=0.1,float=0.2,float=0.5,int=1, int=2,int=5);
-    void licz();
+    bool licz();
 };

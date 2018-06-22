@@ -112,8 +112,8 @@ do
                     system("clear");
 
                     Automat a(ile*2.00);
-                    a.licz();
-
+                    float result=a.licz();
+                    if(result==false)break;
                     for(int i=0; i<ile;i++)
                     {
                         cout<<"Bilety nr:"<< i<<endl;
